@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin Section"
+AuthUserFile "/home4/cowaterj/.htpasswds/public_html/admin/passwd"
+require valid-user

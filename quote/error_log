@@ -1,0 +1,23 @@
+[24-Dec-2014 09:55:50 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home4/cowaterj/public_html/functions.php on line 150
+[24-Dec-2014 09:55:50 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home4/cowaterj/public_html/functions.php on line 160
+[24-Dec-2014 09:55:50 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home4/cowaterj/public_html/functions.php on line 174
+[24-Dec-2014 09:55:50 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/cowaterj/public_html/quote/index.php on line 84
+[24-Dec-2014 09:55:50 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/cowaterj/public_html/quote/index.php on line 87
+[24-Dec-2014 09:55:50 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/cowaterj/public_html/quote/index.php on line 94
+[24-Dec-2014 09:55:50 America/Denver] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home4/cowaterj/public_html/quote/index.php on line 95
+[24-Jan-2015 07:51:07 America/Chicago] PHP Warning:  require_once(header_php.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 1
+[24-Jan-2015 07:51:07 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'header_php.php' (include_path='.:/opt/php54/lib/php') in /home4/cowaterj/public_html/quote/index.php on line 1
+[24-Jan-2015 07:51:08 America/Chicago] PHP Warning:  require_once(header_php.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 1
+[24-Jan-2015 07:51:08 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'header_php.php' (include_path='.:/opt/php54/lib/php') in /home4/cowaterj/public_html/quote/index.php on line 1
+[24-Jan-2015 06:51:20 America/Denver] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 18
+[24-Jan-2015 06:51:20 America/Denver] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 18
+[24-Jan-2015 06:51:20 America/Denver] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/cowaterj/public_html/quote/index.php on line 18
+[24-Jan-2015 06:51:20 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 113
+[24-Jan-2015 06:51:20 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 113
+[24-Jan-2015 06:51:20 America/Denver] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/cowaterj/public_html/quote/index.php on line 113
+[24-Jan-2015 06:51:33 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 113
+[24-Jan-2015 06:51:33 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 113
+[24-Jan-2015 06:51:33 America/Denver] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/cowaterj/public_html/quote/index.php on line 113
+[26-Jan-2015 10:19:01 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 28
+[26-Jan-2015 10:19:01 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home4/cowaterj/public_html/quote/index.php on line 28
+[26-Jan-2015 10:19:01 America/Denver] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/cowaterj/public_html/quote/index.php on line 28

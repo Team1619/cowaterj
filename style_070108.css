@@ -1,0 +1,69 @@
+<style>
+	v\:* {behavior:url(#default#VML);}
+	body{
+		background-color: #000000;
+		text-align: left;
+		font: Arial, Verdana, Helvetica;
+		color: #000000;
+		font-size: 12px;
+	}
+	td{
+		font: Verdana, Arial, Helvetica;
+		color: #000000;
+		font-size: 15px;
+	}
+	img{border: 0;}
+	input{font-size: 12px;}
+	textarea{font-size: 12px;}
+	ul{margin-left: 10; padding-left: 10px;}
+	ol{margin-left: 10; padding-left: 10px;}
+	a{
+		text-decoration: underline;
+		/* color: #1D3148; */
+		color: #263F5A;
+	}
+	a:hover{
+		color: #FFFFFF;
+	}
+	
+	.footer{font-size:12px;}
+	
+	
+	.pagetitle{font-size: 24px;padding-bottom: 10px;font-weight:bold;}
+	
+	/* NAVIGATION */
+	.mynav{
+		color: #FFFFFF;
+		font-size: 16px;
+		font-weight: bold;
+		padding-left:10px;
+		padding-right:0px;
+	}
+	a.nav{color: #FFFFFF;text-decoration: none;}
+	a.nav:hover{text-decoration: underline;}
+	
+	
+	/* LOG IN/OUT BUTTON */
+	td.login{background: url('/images/login_button.jpg') no-repeat;}
+	.loginbutton{
+		color: #FFFFFF;
+		font-size: 13.5px;
+		font: arial;
+		font-weight: bold;
+		text-align: right;
+		padding-top:2px;
+		padding-right:20px;
+		
+		width: 169px;
+		height: 30px;
+	}
+	a.loginlink{color: #FFFFFF;text-decoration: none;}
+	a.loginlink:hover{text-decoration: underline;}
+	
+	.gradient_left{
+		background: #000000 url('/images/gradient_left.jpg');
+	}
+	.gradient_right{
+		background: #7C94AA url('/images/gradient_right_3.jpg') no-repeat;
+	}
+</style>
