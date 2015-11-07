@@ -1,4 +1,4 @@
-<?php require_once('header_php.php'); ?>
+<!--<?php require_once('header_php.php'); ?>-->
 
 <?php
 	/////////////////////////////////////////////////////
@@ -45,7 +45,7 @@
 <?php
 	echo "<title>$pagetitle";
 	if($pagetitle){echo " :: ";}
-	echo "Colorado Water Jet Company</title>";
+	echo "Colorado WaterJet Company</title>";
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta http-equiv="description" content="Colorado WaterJet Company">
@@ -118,7 +118,7 @@ echo " leftmargin=\"0\" rightmargin=\"0\" topmargin=\"0\" bottommargin=\"0\">";
 <table width="882" height="100%" border="0" cellpadding="0" cellspacing="0" align="center">
 <tr valign="bottom"><td colspan="2" width="882" background="/images/bluestripes.gif">
 	<div style="position: relative;">
-		<div style="color: #ffffff; text-align: right; font-weight: bold; position: absolute; right: 10px; top: 10px;">5186 Longs Peak Rd Unit F &bull; Berthoud, CO 80513<br>970-532-5404 &bull; 866-532-5404</div>
+		<div style="color: #ffffff; text-align: right; font-weight: bold; position: absolute; right: 10px; top: 10px;">Shipping and Receiving hours:<br> 8:30am-5:00pm Monday-Friday<br>970-532-5404</div>
 		<img src="/images/title_main.gif">
 	</div>
 </td></tr>
@@ -145,21 +145,11 @@ if(strlike($_SERVER["PHP_SELF"],"admin")){
 <br><br>
 <a href='/capabilities.php' class="nav">Process and Capabilities</a>
 <br><br>
-<a href='/mach-4c-waterjet.php' class="nav">Mach 4C Waterjet</a>
-<br><br>
-<a href='/applications.php' class="nav">Ideal<br>Applications</a>
-<br><br>
-<a href='/why.php' class="nav">Why<br>Water Jet?</a>
-<br><br>
 <a href='/quote/index.php' class="nav">Request A<br>Quote</a>
-<br><br>
-<a href='/filespecifications.php' class="nav">Design File<br>Specifications</a>
 <br><br>
 <a href='/contact.php' class="nav">Contact Us</a>
 <br><br>
 <a href='/gallery/index.php' class="nav">Gallery</a>
-<br><br>
-<a href='/news.php' class="nav">News</a>
 
 
 
@@ -175,57 +165,12 @@ if(strlike($_SERVER["PHP_SELF"],"admin")){
 ?>
 </div>
 
-<div id="join" style="position: absolute; padding: 30px 0 0 10px; color: #fff">
-<div style="color: #fff; padding-bottom: 5px; font-weight: bold">Join Our Mailing List</div>
-<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post">
-<input type="hidden" name="llr" value="kwzhaniab">
-<input type="hidden" name="m" value="1108538025674">
-<input type="hidden" name="p" value="oi">
-Email: <input type="text" name="ea" size="20" value="" style="font-size:10pt; border: 0px; background-color: #c3dcf2; padding: 2px;">
-<input type="submit" name="go" value="Go >" class="submit" style=" background-color: #1891ff; color: #fff; padding: 2px; font-size:10pt; border: 0px;"><br><img src="/images/safe_subscribe_logo.gif" border="0" width="168" height="14" vspace="5" alt=""/>
-
-</form>
-</div>
-
-
-
 </td><td><img src="/images/wheel3.jpg"></td></tr></table>
 
 </td><td width="554" class="gradient_right">
 
-
-
-
-
-
-
 <table cellpadding="0" cellspacing="0" border="0" height="100%" width="554"><tr valign="top"><td width="385"><img src="/images/title_shadow.gif"></td><td width="169" class="login"><div class="loginbutton"><b><img src="/images/clear.gif" width="16" height="1" align="right" border="0"/>
-<?php
-	echo "<a href='/account/index.php' class='loginlink'>";
-	if($accountrow){
-		echo "<a href='/account/index.php' class='loginlink'>my account</a>";
-		echo " | ";
-		echo "<a href='/index.php?action=logout' class='loginlink'>log out</a>";
-	}
-	else{
-		// echo "<a href='/account/create.php' class='loginlink'>create account</a>";
-		// echo " | ";
-		
-		echo "<a href='/account/index.php' class='loginlink'>log in</a>";
-	}
-
-?>
 </b></div></td></tr>
 <tr height="100%" valign="top"><td colspan="2" class="mainarea">
-
-
-
-
-
-
-
-
-
-
 
 <div class='pagetitle'><?=$pagetitle?>&nbsp;</div>

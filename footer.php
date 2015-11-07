@@ -2,7 +2,7 @@
 </td></tr>
 <tr><td colspan="2" align="right" class="footer">
 
-<hr color="#000000" noshade><strong>5186 Longs Peak Road Unit F Berthoud, Colorado 80513 &bull; 866-532-5404</strong><br>&copy 2006<?php if(date('Y',mytime())>2006){echo "-".date('Y',mytime());} ?> Colorado WaterJet Company.  All rights Reserved.<br>Web site crafted by <a href='http://www.claypotcreative.com' target='_blank' title="Web site crafted by Clay Pot Creative.">Clay Pot Creative</a>.
+<hr color="#000000" noshade><strong>5186 Longs Peak Road Unit F Berthoud, Colorado 80513 <br>970-532-5404 &bull; <a href="mailto:sales@coloradowaterjet.com">sales@coloradowaterjet.com</a></strong><br>&copy 2006<?php if(date('Y',mytime())>2006){echo "-".date('Y',mytime());} ?> Colorado WaterJet Company.  All rights Reserved.<br>Web site crafted by <a href='http://www.claypotcreative.com' target='_blank' title="Web site crafted by Clay Pot Creative.">Clay Pot Creative</a>.
 
 </td></tr></table>
 

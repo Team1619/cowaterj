@@ -1,5 +1,3 @@
-<?php require_once('../header_php.php'); ?>
-
 <?php include('../header.php'); ?>
 
 
