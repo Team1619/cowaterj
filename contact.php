@@ -21,7 +21,7 @@ $map = new GoogleMapAPI('map');
 
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
-<tr valign='top'><td rowspan='3'>Colorado WaterJet<br>5186 Longs Peak Road Unit F<br>Berthoud, Colorado 80513</td><td rowspan='3'><img src="/images/clear.gi" height="1" width="60"></td>
+<tr valign='top'><td rowspan='3'>Colorado WaterJet<br>5186 Longs Peak Road Unit F<br>Berthoud, Colorado 80513</td><td rowspan='3'><img src="/images/clear.gif" height="1" width="60"></td>
 <td>970-532-5404</td></tr>
 <tr><td><a href="mailto:sales@coloradowaterjet.com">sales@coloradowaterjet.com</a></td></tr>
 <!--<tr><td>Fax:</td><td>970-532-5405</td></tr>-->
