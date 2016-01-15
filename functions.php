@@ -1,9 +1,5 @@
 <?php
-	
-
-	function formvalue($input){return(stripslashes(str_replace('"','&#34;',$input)));}
-	
-	
+	function formvalue($input){return(stripslashes(str_replace('"','&#34;',$input)));}	
 	function strlike($mystring,$findme){
 		$pos=strpos(strtolower($mystring),strtolower($findme));
 		if($pos===false){return(false);}
@@ -13,12 +9,7 @@
 	function checkemail($email){
  		if(!preg_match("/^( [a-zA-Z0-9] )+( [a-zA-Z0-9\._-] )*@( [a-zA-Z0-9_-] )+( [a-zA-Z0-9\._-] +)+$/" , $email)){return false;}
  		return true;
-	}
-
-
-	
-
-
+	}	
 	function receipt($quoteid,$format='html'){
 		$row=mysql_fetch_assoc(mysql_unbuffered_query("SELECT * FROM quotes WHERE quoteid='$quoteid'"));
 		if(!$row){return(false);}
@@ -66,17 +57,9 @@
 			}
 			if($format=='html'){$msg.="</td></tr>";}
 		}
-		
-		
-		
 		if($format=='html'){$msg.="</table>";}
 		return($msg);
-	}
-	
-	
-	
-	
-	
+	}		
 	// FUNCTION FOR FINDING ENUMERATED FIELD VALUES:
 	function get_enum($tablename,$fieldname){
 		$sql="SHOW COLUMNS FROM $tablename LIKE '$fieldname'";
@@ -90,9 +73,7 @@
 		}
 		mysql_free_result($result);
 		return(false);
-	}
-	
-	
+	}		
 	function is_enum($tablename,$fieldname){
 		$sql="SHOW COLUMNS FROM $tablename LIKE '$fieldname'";
 		$result=mysql_query($sql);
@@ -116,19 +97,7 @@
 			if(strlike($row[1],"(")){$type=substr($row[1],0,strpos($row[1],"("));}
 		}
 		return($type);
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}		
 	function mytime(){
 		global $this_time;
 		return($this_time->getTime());
@@ -144,16 +113,13 @@
 		if(!$visitorid){
 			@mysql_query("insert into visitors (timestamp) VALUES ('$timestamp')");
 			$visitorid=mysql_insert_id();
-		}
-		
+		}
 		// CHECK TO MAKE SURE THAT ROW EXISTS IN VISITORS TABLE
 		$row=mysql_fetch_array(mysql_unbuffered_query("SELECT visitorid FROM visitors WHERE visitorid='$visitorid'"));
 		if($visitorid && !$row["visitorid"]){@mysql_query("INSERT INTO visitors (visitorid,timestamp) VALUES ('$visitorid','$timestamp')");}
-			
 		// UPDATE EVERYTHING
 		@mysql_query("UPDATE visitors SET timestamp='$timestamp' WHERE visitorid='$visitorid'");
 		if(!headers_sent()){setcookie("coloradowaterjet_id",$visitorid,$timestamp+$duration,"/","",0);}
-		
 		// REMOVE OLD CRAP
 		$result=mysql_unbuffered_query("SELECT visitorid FROM visitors WHERE timestamp<'".($timestamp-$duration)."'");
 		$oldvisitors="";
@@ -165,45 +131,30 @@
 		@mysql_unbuffered_query("DELETE FROM visitors WHERE visitorid IN ($oldvisitors)");
 	
 		return($visitorid);
-	}
-	
-	
-	
+	}	
 	function getaccountrow(){
 		global $visitorid;
 		$accountrow=mysql_fetch_array(mysql_unbuffered_query("SELECT * FROM accounts,visitors_accounts WHERE visitors_accounts.accountid=accounts.accountid AND visitors_accounts.visitorid='$visitorid'"));
 		return($accountrow);
-	}
-	
-	
-	
-	function mkthumb($filename,$maxdimension){
-
+	}	
+	function mkthumb($filename,$maxdimension){
 		$filename=$_SERVER['DOCUMENT_ROOT']."/gallery/".$filename;
 		$filename_new=substr($filename,0,-4)."_th.jpg";
-		
 		// Set a maximum height and width
 		$width=$maxdimension;
-		$height=$maxdimension;
-		
+		$height=$maxdimension;		
 		// Content type
 		//header('Content-type: image/jpeg');
-		
 		// Get new dimensions
 		list($width_orig, $height_orig) = getimagesize($filename);
-		
 		$ratio_orig = $width_orig/$height_orig;
-		
 		if($width/$height>$ratio_orig){$width = $height*$ratio_orig;}
-		else{$height = $width/$ratio_orig;}
-		
+		else{$height = $width/$ratio_orig;}		
 		// Resample
 		$image_p = imagecreatetruecolor($width, $height);
 		$image = imagecreatefromjpeg($filename);
 		imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
-		
 		// Output
 		imagejpeg($image_p,$filename_new,100);
-	}
-	
+	}
 ?>

@@ -149,6 +149,8 @@ if(strlike($_SERVER["PHP_SELF"],"admin")){
 <br><br>
 <a href='/quote/index.php' class="nav">Request A<br>Quote</a>
 <br><br>
+<a href='/gallery' class="nav">Gallery</a>
+<br><br>
 <a href='/contact.php' class="nav">Contact Us</a>
 
 <?php
