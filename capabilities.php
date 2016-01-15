@@ -19,8 +19,8 @@ applications such as weld prep.</p>
 [<a href="- http://www.flowwaterjet.com/en/waterjet-cutting/cutting-systems/mach-3/cutting-
 systems/Mach%203b%20Models.aspx">Click here</a>] to learn about the FLOW Mach 3B.</p>
 
-<table style="width:100%">
-  <th colspan="6"><b>Tool Metals<b><th>
+<table style="width:100%; background-color:#eee">
+  <th colspan="6" style="color:#fff; font-size:75%; background-color:#777"><b>Tool Metals<b><th>
   <tr>
     <td>Aluminum</td>
     <td>Titanium</td> 
@@ -29,7 +29,7 @@ systems/Mach%203b%20Models.aspx">Click here</a>] to learn about the FLOW Mach 3B
 	<td>Zirconium</td>
 	<td>Hastelloy</td>
   </tr>
-  <th colspan="6"><b>Steel<b><th>
+  <th colspan="6" style="color:#fff; font-size:75%; background-color:#777"><b>Steel<b><th>
   <tr>
     <td>Mild</td>
     <td>Stainless</td> 
@@ -38,7 +38,7 @@ systems/Mach%203b%20Models.aspx">Click here</a>] to learn about the FLOW Mach 3B
 	<td>Hardened</td>
 	<td>P&amp;O</td>
   </tr>
-  <th colspan="6"><b>Precious Metals<b><th>
+  <th colspan="6" style="color:#fff; font-size:75%; background-color:#777"><b>Precious Metals<b><th>
   <tr>
     <td>Copper</td>
     <td>Bronze</td> 
@@ -47,7 +47,7 @@ systems/Mach%203b%20Models.aspx">Click here</a>] to learn about the FLOW Mach 3B
 	<td>Brass</td>
 	<td>Silicon</td>
   </tr>
-  <th colspan="6"><b>Other Materials<b><th>
+  <th colspan="6" style="color:#fff; font-size:75%; background-color:#777"><b>Other Materials<b><th>
   <tr>
     <td>Granite</td>
     <td>Marble</td> 

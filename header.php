@@ -143,6 +143,8 @@ if(strlike($_SERVER["PHP_SELF"],"admin")){
 <br><br>
 <a href='/index.php' class="nav">Home</a>
 <br><br>
+<a href='/about.php' class="nav">About Us</a>
+<br><br>
 <a href='/capabilities.php' class="nav">Process and Capabilities</a>
 <br><br>
 <a href='/quote/index.php' class="nav">Request A<br>Quote</a>

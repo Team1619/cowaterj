@@ -1,47 +1,2 @@
-<?php require_once('header_php.php'); ?>
-
-
-
-
-
-
-
-<?php
-if($action=='logout'){
-	@mysql_query("DELETE FROM visitors_accounts WHERE visitorid='$visitorid'");
-	$accountrow="";
-}
-?>
-
-
-
-
-
-
-<?php include('header.php'); ?>
-
-
-
-
-
-
-Colorado WaterJet Company is Colorado's oldest, largest, and most experienced job shop specializing in abrasive waterjet shape cutting.  Our equipment includes a Dynamic WaterJet; the most advanced waterjet available.
-<br><br>
-Colorado WaterJet Company was established in 1997 by Dan Nibbelink, a Mechanical Engineer and Registered Professional Engineer. At that time he had twenty years experience in mechanical design and manufacturing engineering with medical equipment, computer peripherals and industrial companies. That experience helps him understand your requirements so you can get the best product for the lowest cost.
-<br><br>
-Dan Nibbelink also is an artist-blacksmith and understands the requirements for architectural projects.
-<br><br>
-Colorado WaterJet Company is a member of:
-<ul>
-<li><a href='http://www.wjta.org/' target='_blank'>WJTA</a> - Water Jet Technology Association</li>
-<li><a href='http://www.nomma.org/' target='_blank'>NOMMA</a> - National Ornamental and Miscellaneous Metals Association</li>
-<li><a href='http://fmametalfab.org/' target='_blank'>FMA</a> - Fabrication and Manufacturers Association</li>
-<li><a href='http://www.nfib.com/' target='_blank'>NFIB</a> - National Federation of Independent Businesses</li>
-<li><a href='http://www.abana.org/' target='_blank'>ABANA</a> - Artist Blacksmith Association of North America</li>
-</ul>
-
-
-
-
-
+<?php include('header.php'); ?><p>Colorado WaterJet Company is Colorado's largest (3 machines) and oldest (1997) custom manufacturing facility specializing in abrasive water jet cutting.  We operate our business according to our 3 key tenants:</p><ol><li>Best-In-Class Customer Service</li><li>Integrity</li><li>Continuous Improvement</li></ol><p>At Colorado WaterJet we focus on systematic process flow.  In 2015, we implemented our automated Master Production Schedule, formalized our Quality Management System, and began offering 24 hour expedited services.  In fact, we successfully completed 141 expedited jobs in 2015.</p><p>Planned capacity and an organized process flow system allow us to meet your needs and give you the best possible customer experience.</p> <p>Our process not only allows us to provide a quick turnaround, but also a detailed review of each job despite the project's nuances.  In the past 6 months, we served 34 industries and cut 62 material types, ranging from a 4 minute prototype to a 15,000 piece production run.</p><p>Don't take our word for it, come see for yourself.  We enjoy providing facility tours to explain the technology, show off samples, and discuss your specific project.  <b>Call (970)532-5404 to schedule a visit.</b></p><p>Our President, Brian Pope, has extensive experience providing custom manufacturing services to the Aerospace, Medical, Automotive, Electronics, and Government Defense Industries.  In 2014, Brian brought his proven process flow techniques to an established job shop known for the experience and personal touch provided by Dan Nibbelink (Founder) and Josh Van Maren (Customer Service Manager).</p>
 <?php include('footer.php'); ?>
