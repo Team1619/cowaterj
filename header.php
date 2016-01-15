@@ -150,10 +150,6 @@ if(strlike($_SERVER["PHP_SELF"],"admin")){
 <a href='/quote/index.php' class="nav">Request A<br>Quote</a>
 <br><br>
 <a href='/contact.php' class="nav">Contact Us</a>
-<br><br>
-<a href='/gallery/index.php' class="nav">Gallery</a>
-
-
 
 <?php
 	/*

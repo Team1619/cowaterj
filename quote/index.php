@@ -31,15 +31,39 @@ if(isset($_POST['email'])){
 ?>
 
 
-<p>Please email us directly at <a href="mailto:Sales@ColoradoWaterJet.com?Subject=Quote" target="_top">Sales@ColoradoWaterJet.com</a>.</p>
-<p>Please include the following information:</p>
+<p>If this is your first time requesting a quote from us, please take a moment to read our design files specifications below to help lower your project costs.</p>
+<p>Otherwise, please email us directly at <a href="mailto:Sales@ColoradoWaterJet.com?Subject=Quote" target="_top">Sales@ColoradoWaterJet.com</a>.</p>
+<p>Please note a minimum order cost of $100 USD and we are prohibited from using any trademarked images.</p>
+<h2>Design File Preferences:</h2>
+<p>The machines at Colorado Waterjet use .dxf files to lead the cutting process accurately.</p>
+<p>If your file was created in a <b>CAD Program</b>, please send as a .dxf file type.</p>
 <ul>
-<li>Name</li>
-<li>Email</li>
-<li>Phone Number</li>
-<li>Company</li>
-<li>Details About Your Project</li>
+<li>Create and save the drawing at full scale with no drawing sheet format or dimensions.</li>
+<li>Save all entities on 1 layer and, if possible, save as a 2004 .dxf or earlier.</li>
+<li>Draw tapped holes at tap drill size.</li>
+<li>Explode all blocks and symbols.</li>
+<li>Purge drawing before saving. (File|Drawing Utilities|Purge)</li>
+<li>We prefer to create any nesting for the customer, but if your personal nesting is necessary, a minimum 0.2 inch spacing is recommended.</li>
+<li>Please provide an additional PDF or CAD file with dimensions and tolerances.</li>
 </ul>
+
+<p>If your file was created in a <b>vector graphics program</b>, please send files to us as AI, SCV or EPS format.</p>
+<ul>
+<li>Please do not send us your file as a raster or bitmap.</li>
+<li>Convert text to outlines.</li>
+<li>Ensure that (View|Outline) shows all lines as they will be cut.</li>
+</ul>
+
+<p>If your design is only a <b>sketch:</b></p>
+<ul>
+<li>Please use dark, heavy, single lines or solid filled images.</li>
+<li>Sketches must be at most 8.5"x11"</li>
+</ul>
+
+<p>All files must be usable by Windows OS and less than 25 Mb. If possible, files can be compressed further using <a href="http://www.7-zip.org/download.html">7zip.</a></p>
+
+<p>Other acceptable formats: .dwg, .stp and .pdf.</p>
+<p>Please call us if you have any questions: 970-532-5404</p>
 
 
 <script language="javascript">

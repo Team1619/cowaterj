@@ -11,13 +11,13 @@ zones that come with other cutting processes, such as plasma or laser.</p>
 
 <p>Colorado WaterJet proudly houses a FLOW Mach 4C Water Jet machine, which is capable of 5-axis 
 cutting.
-[<a href="http://www.flowwaterjet.com/en/waterjet-cutting/cutting-systems/mach-
-4/cutting%20systems/Mach%204c%20Models.aspx">Click here</a>] to learn more about the Mach 4C. Our 5-axis capabilities are ideal for thick, flat material or 
+<a href="http://www.flowwaterjet.com/en/waterjet-cutting/cutting-systems/mach-
+4/cutting%20systems/Mach%204c%20Models.aspx">Click here to learn more about the Mach 4C.</a> Our 5-axis capabilities are ideal for thick, flat material or 
 applications such as weld prep.</p>
 
 <p>CWJ also houses a FLOW Mach 3B Integrated flying Bridge (IFB) and a FLOW A-series waterjet.
-[<a href="- http://www.flowwaterjet.com/en/waterjet-cutting/cutting-systems/mach-3/cutting-
-systems/Mach%203b%20Models.aspx">Click here</a>] to learn about the FLOW Mach 3B.</p>
+<a href="- http://www.flowwaterjet.com/en/waterjet-cutting/cutting-systems/mach-3/cutting-
+systems/Mach%203b%20Models.aspx">Click here to learn about the FLOW Mach 3B.</a></p>
 
 <table style="width:100%; background-color:#eee">
   <th colspan="6" style="color:#fff; font-size:75%; background-color:#777"><b>Tool Metals<b><th>
