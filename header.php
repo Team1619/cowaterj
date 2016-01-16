@@ -17,6 +17,7 @@
 	elseif(strlike($_SERVER["PHP_SELF"],"admin/photos_categories_edit.php")){$pagetitle.="Admin - Edit Gallery Category";}
 	
 	elseif(strlike($_SERVER["PHP_SELF"],"contact.php")){$pagetitle.="Contact Us";}
+	elseif(strlike($_SERVER["PHP_SELF"],"careers.php")){$pagetitle.="Careers";}
 	elseif(strlike($_SERVER["PHP_SELF"],"news.php")){$pagetitle.="News";}
 	elseif(strlike($_SERVER["PHP_SELF"],"filespecifications.php")){$pagetitle.="Design File Specifications";}
 	elseif(strlike($_SERVER["PHP_SELF"],"capabilities.php")){$pagetitle.="Capabilities";}
@@ -150,6 +151,8 @@ if(strlike($_SERVER["PHP_SELF"],"admin")){
 <a href='/quote/index.php' class="nav">Request A<br>Quote</a>
 <br><br>
 <a href='/gallery' class="nav">Gallery</a>
+<br><br>
+<a href='/careers.php' class="nav">Careers</a>
 <br><br>
 <a href='/contact.php' class="nav">Contact Us</a>
 
